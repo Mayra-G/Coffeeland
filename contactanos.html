@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coffeeland</title>
+    <link rel="icon" href="Elementos/favicon_01_p3Z_icon.ico" type="imag/x-icon">
+    <link rel="stylesheet" href="css/Coffee.css">
+    <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <img src= "Elementos/Coffee Logo.png" class="imagen-centro">
+                <br>
+                <marquee width="500">"Yo orquesto mis mañanas al son del café."</marquee>
+        </div>
+
+        <div id="nav">
+            <ol>
+                <li><a href="quienes-somos.html">¿QUIENES SOMOS?</a></li>
+                <li><a href="desde-siempre.html" class="active">DESDE SIEMPRE</a></li>
+                <li><a href="origenes.html">ORÍGENES</a></li>
+                <li><a href="mundo.html">ALREDEDOR DEL MUNDO</a></li>
+                <li><a href="contactanos.html">CONTÁCTANOS</a></li>
+            </ol>
+        </div>
+        <div id="cuerpo">
+            <h1 align="center">Contáctanos</h1>
+            <h4 align="center">Amaríamos leer todo lo que tengas que decirnos.</h4>
+            <br>
+            <hr>
+            <br>
+            <br>
+
+            <form method="POST" action="#" name="Form1">
+
+                <label class="label-texto" for="nombre">Tu Nombre</label>
+                <br>
+                <input class="caja-texto" name="nombre" type="text" id="nombre" placeholder="Ingresa tu nombre aquí"
+                    required>
+                <br>
+                <br>
+                <label class="label-texto" for="correo">Tu Correo</label>
+                <br>
+                <input class="caja-texto" name="correo" type="email" id="correo" placeholder="Ingresa tu correo aquí"
+                    required>
+                <br>
+                <br>
+                <label class="label-texto" for="telefono">Tu Telefono</label>
+                <br>
+                <input class="caja-texto" name="telefono" id="telefono"
+                    placeholder="Ingresa tu número de teléfono aquí" required></input>
+                <br>
+                <br>
+                <label class="label-texto" for="mensaje">Mensaje</label>
+                <br>
+                <textarea class="text-area" name="mensaje" id="mensaje" required></textarea>
+                <br>
+                <br>
+                <input class="boton" type="submit" value="Enviar Mensaje" name="btn">
+
+
+            </form>
+
+
+
+        </div>
+        <div id="footer">Todos los derechos reservados<br>Maracaibo, Venezuela.
+            <br>
+            <a href="https://es-la.facebook.com" target="_blank"> <i class=" fa fa-facebook" style= "font-size: 24px; color:white;"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class=" fa fa-instagram" style= "font-size: 24px; color:white;"></i></a>
+            <a href="https://twitter.com/?lang=es" target="_blank"><i class=" fa fa-twitter" style= "font-size: 24px; color:white;"></i></a>
+    </div>
+</body>
+
+</html>
